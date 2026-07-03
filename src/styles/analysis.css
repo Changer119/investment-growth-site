@@ -1,0 +1,60 @@
+.analysis-row {
+  display: grid;
+  grid-template-columns: 170px minmax(120px, 180px) 160px minmax(240px, 1fr);
+  gap: 12px;
+  align-items: center;
+  padding: 13px;
+}
+
+.analysis-row__identity span,
+.analysis-row__identity strong,
+.analysis-row__price span {
+  display: block;
+}
+
+.analysis-row__identity span {
+  color: #7df6ff;
+  font-weight: 900;
+}
+
+.mini-chart {
+  width: 100%;
+  height: 46px;
+}
+
+.signal-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.signal {
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+  padding: 6px 8px;
+  font-size: 12px;
+}
+
+.signal--good {
+  color: #9bffca;
+}
+
+.signal--warn {
+  color: #ffd37a;
+}
+
+.signal--risk {
+  color: #ff9caf;
+}
+
+.signal--neutral {
+  color: #c8d6df;
+}
+
+.disclaimer {
+  gap: 8px;
+  margin-top: 14px;
+  color: #9db5c5;
+  font-size: 13px;
+}

@@ -1,0 +1,159 @@
+:root {
+  color: #e7f6ff;
+  background: #05070c;
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 18% 8%, rgba(0, 229, 255, 0.18), transparent 28%),
+    linear-gradient(135deg, #05070c 0%, #0b1018 48%, #10110d 100%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.app-shell {
+  width: min(1440px, 100%);
+  margin: 0 auto;
+  padding: 22px;
+}
+
+.app-shell--center {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+}
+
+.topbar,
+.hero-dashboard,
+.panel,
+.quote-card {
+  border: 1px solid rgba(139, 234, 255, 0.16);
+  background: rgba(8, 15, 24, 0.78);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.38);
+  backdrop-filter: blur(20px);
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 14px 16px;
+  border-radius: 8px;
+}
+
+.brand,
+.status-strip,
+.status-strip span,
+.panel-title,
+.quote-card__top,
+.source-link,
+.disclaimer {
+  display: flex;
+  align-items: center;
+}
+
+.brand {
+  gap: 12px;
+}
+
+.brand__mark {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border: 1px solid rgba(90, 242, 255, 0.4);
+  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(0, 229, 255, 0.25), rgba(176, 255, 92, 0.14));
+}
+
+.brand strong,
+.brand small {
+  display: block;
+}
+
+.brand small,
+.eyebrow,
+.section-heading p,
+.footer-note,
+.news-item__meta,
+.analysis-row__price small {
+  color: #91a8b8;
+}
+
+.status-strip {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.status-strip span,
+.pill,
+.signal,
+.lesson-card__tags span {
+  border: 1px solid rgba(143, 171, 190, 0.18);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #c7d7e3;
+}
+
+.status-strip span {
+  gap: 7px;
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+.eyebrow,
+.section-heading p {
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.footer-note {
+  padding: 20px 4px 2px;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.loading-panel {
+  display: grid;
+  gap: 12px;
+  place-items: center;
+  padding: 30px;
+  border: 1px solid rgba(132, 225, 255, 0.2);
+  border-radius: 8px;
+  background: rgba(9, 16, 24, 0.88);
+}
+
+.loading-panel--error {
+  color: #ffb1bd;
+}
+
+.spin {
+  animation: spin 1.1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

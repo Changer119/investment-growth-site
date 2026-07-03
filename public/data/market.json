@@ -1,0 +1,811 @@
+{
+  "generatedAt": "2026-07-03T14:48:32.714Z",
+  "provider": "Yahoo Finance public endpoints",
+  "providerNote": "行情与资讯来自 Yahoo Finance 公开端点，由 GitHub Actions 每 30 分钟刷新；公开端点可能存在延迟，请以交易所与券商终端为准。",
+  "quotes": [
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "assetType": "equity",
+      "currency": "USD",
+      "price": 194.83,
+      "previousClose": 197.58,
+      "change": -2.75,
+      "changePercent": -1.3918412794817288,
+      "high": 200.055,
+      "low": 192.35,
+      "volume": 129935067,
+      "trend": "down",
+      "points": [
+        {
+          "time": "2026-07-01T19:00:00.000Z",
+          "value": 199.3000030517578
+        },
+        {
+          "time": "2026-07-01T19:30:00.000Z",
+          "value": 197.5800018310547
+        },
+        {
+          "time": "2026-07-02T13:30:00.000Z",
+          "value": 198.85499572753906
+        },
+        {
+          "time": "2026-07-02T14:00:00.000Z",
+          "value": 197.85000610351562
+        },
+        {
+          "time": "2026-07-02T14:30:00.000Z",
+          "value": 196.24000549316406
+        },
+        {
+          "time": "2026-07-02T15:00:00.000Z",
+          "value": 194.7794952392578
+        },
+        {
+          "time": "2026-07-02T15:30:00.000Z",
+          "value": 194.49000549316406
+        },
+        {
+          "time": "2026-07-02T16:00:00.000Z",
+          "value": 193.7899932861328
+        },
+        {
+          "time": "2026-07-02T16:30:00.000Z",
+          "value": 193.49000549316406
+        },
+        {
+          "time": "2026-07-02T17:00:00.000Z",
+          "value": 193.0500030517578
+        },
+        {
+          "time": "2026-07-02T17:30:00.000Z",
+          "value": 192.5449981689453
+        },
+        {
+          "time": "2026-07-02T18:00:00.000Z",
+          "value": 193.76260375976562
+        },
+        {
+          "time": "2026-07-02T18:30:00.000Z",
+          "value": 193.42999267578125
+        },
+        {
+          "time": "2026-07-02T19:00:00.000Z",
+          "value": 193.10499572753906
+        },
+        {
+          "time": "2026-07-02T19:30:00.000Z",
+          "value": 194.6199951171875
+        },
+        {
+          "time": "2026-07-02T20:00:00.000Z",
+          "value": 194.8300018310547
+        }
+      ],
+      "sourceUrl": "https://finance.yahoo.com/quote/NVDA"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "assetType": "equity",
+      "currency": "USD",
+      "price": 390.49,
+      "previousClose": 384.28,
+      "change": 6.210000000000036,
+      "changePercent": 1.6160091599875186,
+      "high": 392.19,
+      "low": 383.7,
+      "volume": 40690198,
+      "trend": "up",
+      "points": [
+        {
+          "time": "2026-07-01T19:00:00.000Z",
+          "value": 385.18499755859375
+        },
+        {
+          "time": "2026-07-01T19:30:00.000Z",
+          "value": 384.2200012207031
+        },
+        {
+          "time": "2026-07-02T13:30:00.000Z",
+          "value": 386.4200134277344
+        },
+        {
+          "time": "2026-07-02T14:00:00.000Z",
+          "value": 388.6549987792969
+        },
+        {
+          "time": "2026-07-02T14:30:00.000Z",
+          "value": 390.1099853515625
+        },
+        {
+          "time": "2026-07-02T15:00:00.000Z",
+          "value": 387.760009765625
+        },
+        {
+          "time": "2026-07-02T15:30:00.000Z",
+          "value": 389.1199951171875
+        },
+        {
+          "time": "2026-07-02T16:00:00.000Z",
+          "value": 390.9070129394531
+        },
+        {
+          "time": "2026-07-02T16:30:00.000Z",
+          "value": 390.3949890136719
+        },
+        {
+          "time": "2026-07-02T17:00:00.000Z",
+          "value": 391.74139404296875
+        },
+        {
+          "time": "2026-07-02T17:30:00.000Z",
+          "value": 390.6099853515625
+        },
+        {
+          "time": "2026-07-02T18:00:00.000Z",
+          "value": 390.95001220703125
+        },
+        {
+          "time": "2026-07-02T18:30:00.000Z",
+          "value": 390.8349914550781
+        },
+        {
+          "time": "2026-07-02T19:00:00.000Z",
+          "value": 391.20001220703125
+        },
+        {
+          "time": "2026-07-02T19:30:00.000Z",
+          "value": 389.6199951171875
+        },
+        {
+          "time": "2026-07-02T20:00:00.000Z",
+          "value": 390.489990234375
+        }
+      ],
+      "sourceUrl": "https://finance.yahoo.com/quote/MSFT"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple",
+      "assetType": "equity",
+      "currency": "USD",
+      "price": 308.63,
+      "previousClose": 294.38,
+      "change": 14.25,
+      "changePercent": 4.840682111556491,
+      "high": 309.42,
+      "low": 293.68,
+      "volume": 71900726,
+      "trend": "up",
+      "points": [
+        {
+          "time": "2026-07-01T19:00:00.000Z",
+          "value": 294.0151062011719
+        },
+        {
+          "time": "2026-07-01T19:30:00.000Z",
+          "value": 294.25
+        },
+        {
+          "time": "2026-07-02T13:30:00.000Z",
+          "value": 302.80999755859375
+        },
+        {
+          "time": "2026-07-02T14:00:00.000Z",
+          "value": 305.04998779296875
+        },
+        {
+          "time": "2026-07-02T14:30:00.000Z",
+          "value": 306.87799072265625
+        },
+        {
+          "time": "2026-07-02T15:00:00.000Z",
+          "value": 305.4150085449219
+        },
+        {
+          "time": "2026-07-02T15:30:00.000Z",
+          "value": 305.625
+        },
+        {
+          "time": "2026-07-02T16:00:00.000Z",
+          "value": 308.0899963378906
+        },
+        {
+          "time": "2026-07-02T16:30:00.000Z",
+          "value": 308.30999755859375
+        },
+        {
+          "time": "2026-07-02T17:00:00.000Z",
+          "value": 307.80499267578125
+        },
+        {
+          "time": "2026-07-02T17:30:00.000Z",
+          "value": 307.32000732421875
+        },
+        {
+          "time": "2026-07-02T18:00:00.000Z",
+          "value": 307.3299865722656
+        },
+        {
+          "time": "2026-07-02T18:30:00.000Z",
+          "value": 307.6449890136719
+        },
+        {
+          "time": "2026-07-02T19:00:00.000Z",
+          "value": 307.42498779296875
+        },
+        {
+          "time": "2026-07-02T19:30:00.000Z",
+          "value": 308.2200012207031
+        },
+        {
+          "time": "2026-07-02T20:00:00.000Z",
+          "value": 308.6300048828125
+        }
+      ],
+      "sourceUrl": "https://finance.yahoo.com/quote/AAPL"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "assetType": "equity",
+      "currency": "USD",
+      "price": 393.45,
+      "previousClose": 425.3,
+      "change": -31.850000000000023,
+      "changePercent": -7.488831413120156,
+      "high": 432.35,
+      "low": 389.301,
+      "volume": 72014753,
+      "trend": "down",
+      "points": [
+        {
+          "time": "2026-07-01T19:00:00.000Z",
+          "value": 425.989990234375
+        },
+        {
+          "time": "2026-07-01T19:30:00.000Z",
+          "value": 425.3699951171875
+        },
+        {
+          "time": "2026-07-02T13:30:00.000Z",
+          "value": 413.0133056640625
+        },
+        {
+          "time": "2026-07-02T14:00:00.000Z",
+          "value": 401.510009765625
+        },
+        {
+          "time": "2026-07-02T14:30:00.000Z",
+          "value": 397.82501220703125
+        },
+        {
+          "time": "2026-07-02T15:00:00.000Z",
+          "value": 396.92999267578125
+        },
+        {
+          "time": "2026-07-02T15:30:00.000Z",
+          "value": 398.4200134277344
+        },
+        {
+          "time": "2026-07-02T16:00:00.000Z",
+          "value": 392.92999267578125
+        },
+        {
+          "time": "2026-07-02T16:30:00.000Z",
+          "value": 390.82000732421875
+        },
+        {
+          "time": "2026-07-02T17:00:00.000Z",
+          "value": 391.0299987792969
+        },
+        {
+          "time": "2026-07-02T17:30:00.000Z",
+          "value": 391.3399963378906
+        },
+        {
+          "time": "2026-07-02T18:00:00.000Z",
+          "value": 393.739990234375
+        },
+        {
+          "time": "2026-07-02T18:30:00.000Z",
+          "value": 392.1899108886719
+        },
+        {
+          "time": "2026-07-02T19:00:00.000Z",
+          "value": 391.2099914550781
+        },
+        {
+          "time": "2026-07-02T19:30:00.000Z",
+          "value": 392.82000732421875
+        },
+        {
+          "time": "2026-07-02T20:00:00.000Z",
+          "value": 393.45001220703125
+        }
+      ],
+      "sourceUrl": "https://finance.yahoo.com/quote/TSLA"
+    },
+    {
+      "symbol": "TSM",
+      "name": "Taiwan Semiconductor",
+      "assetType": "equity",
+      "currency": "USD",
+      "price": 434.16,
+      "previousClose": 444.23,
+      "change": -10.069999999999993,
+      "changePercent": -2.2668437521103915,
+      "high": 461.47,
+      "low": 429.5,
+      "volume": 18189463,
+      "trend": "down",
+      "points": [
+        {
+          "time": "2026-07-01T19:00:00.000Z",
+          "value": 448.3299865722656
+        },
+        {
+          "time": "2026-07-01T19:30:00.000Z",
+          "value": 444.29998779296875
+        },
+        {
+          "time": "2026-07-02T13:30:00.000Z",
+          "value": 459.2449951171875
+        },
+        {
+          "time": "2026-07-02T14:00:00.000Z",
+          "value": 451.052001953125
+        },
+        {
+          "time": "2026-07-02T14:30:00.000Z",
+          "value": 449.69500732421875
+        },
+        {
+          "time": "2026-07-02T15:00:00.000Z",
+          "value": 442.9750061035156
+        },
+        {
+          "time": "2026-07-02T15:30:00.000Z",
+          "value": 442.5849914550781
+        },
+        {
+          "time": "2026-07-02T16:00:00.000Z",
+          "value": 437.625
+        },
+        {
+          "time": "2026-07-02T16:30:00.000Z",
+          "value": 433.9599914550781
+        },
+        {
+          "time": "2026-07-02T17:00:00.000Z",
+          "value": 431.7699890136719
+        },
+        {
+          "time": "2026-07-02T17:30:00.000Z",
+          "value": 431.7200012207031
+        },
+        {
+          "time": "2026-07-02T18:00:00.000Z",
+          "value": 434.385009765625
+        },
+        {
+          "time": "2026-07-02T18:30:00.000Z",
+          "value": 434.760009765625
+        },
+        {
+          "time": "2026-07-02T19:00:00.000Z",
+          "value": 433.4049987792969
+        },
+        {
+          "time": "2026-07-02T19:30:00.000Z",
+          "value": 434.4700012207031
+        },
+        {
+          "time": "2026-07-02T20:00:00.000Z",
+          "value": 434.1600036621094
+        }
+      ],
+      "sourceUrl": "https://finance.yahoo.com/quote/TSM"
+    },
+    {
+      "symbol": "BABA",
+      "name": "Alibaba",
+      "assetType": "equity",
+      "currency": "USD",
+      "price": 96.14,
+      "previousClose": 97.99,
+      "change": -1.8499999999999943,
+      "changePercent": -1.887947749770379,
+      "high": 97.935,
+      "low": 95.19,
+      "volume": 10816201,
+      "trend": "down",
+      "points": [
+        {
+          "time": "2026-07-01T19:00:00.000Z",
+          "value": 98.26000213623047
+        },
+        {
+          "time": "2026-07-01T19:30:00.000Z",
+          "value": 98
+        },
+        {
+          "time": "2026-07-02T13:30:00.000Z",
+          "value": 97.41999816894531
+        },
+        {
+          "time": "2026-07-02T14:00:00.000Z",
+          "value": 96.3499984741211
+        },
+        {
+          "time": "2026-07-02T14:30:00.000Z",
+          "value": 96.26000213623047
+        },
+        {
+          "time": "2026-07-02T15:00:00.000Z",
+          "value": 95.81999969482422
+        },
+        {
+          "time": "2026-07-02T15:30:00.000Z",
+          "value": 95.76499938964844
+        },
+        {
+          "time": "2026-07-02T16:00:00.000Z",
+          "value": 95.70999908447266
+        },
+        {
+          "time": "2026-07-02T16:30:00.000Z",
+          "value": 95.47000122070312
+        },
+        {
+          "time": "2026-07-02T17:00:00.000Z",
+          "value": 95.48500061035156
+        },
+        {
+          "time": "2026-07-02T17:30:00.000Z",
+          "value": 95.23500061035156
+        },
+        {
+          "time": "2026-07-02T18:00:00.000Z",
+          "value": 95.6449966430664
+        },
+        {
+          "time": "2026-07-02T18:30:00.000Z",
+          "value": 95.88500213623047
+        },
+        {
+          "time": "2026-07-02T19:00:00.000Z",
+          "value": 96.16999816894531
+        },
+        {
+          "time": "2026-07-02T19:30:00.000Z",
+          "value": 96.13999938964844
+        },
+        {
+          "time": "2026-07-02T20:00:00.000Z",
+          "value": 96.13999938964844
+        }
+      ],
+      "sourceUrl": "https://finance.yahoo.com/quote/BABA"
+    },
+    {
+      "symbol": "QQQ",
+      "name": "Nasdaq 100 ETF",
+      "assetType": "etf",
+      "currency": "USD",
+      "price": 712.6,
+      "previousClose": 725.17,
+      "change": -12.569999999999936,
+      "changePercent": -1.7333866541638425,
+      "high": 730.82,
+      "low": 707.56,
+      "volume": 49818492,
+      "trend": "down",
+      "points": [
+        {
+          "time": "2026-07-01T19:00:00.000Z",
+          "value": 727.9091186523438
+        },
+        {
+          "time": "2026-07-01T19:30:00.000Z",
+          "value": 725.1300048828125
+        },
+        {
+          "time": "2026-07-02T13:30:00.000Z",
+          "value": 729.9000244140625
+        },
+        {
+          "time": "2026-07-02T14:00:00.000Z",
+          "value": 722.1699829101562
+        },
+        {
+          "time": "2026-07-02T14:30:00.000Z",
+          "value": 719.8150024414062
+        },
+        {
+          "time": "2026-07-02T15:00:00.000Z",
+          "value": 715.8099975585938
+        },
+        {
+          "time": "2026-07-02T15:30:00.000Z",
+          "value": 715.814697265625
+        },
+        {
+          "time": "2026-07-02T16:00:00.000Z",
+          "value": 713.010009765625
+        },
+        {
+          "time": "2026-07-02T16:30:00.000Z",
+          "value": 710.7849731445312
+        },
+        {
+          "time": "2026-07-02T17:00:00.000Z",
+          "value": 710.4000244140625
+        },
+        {
+          "time": "2026-07-02T17:30:00.000Z",
+          "value": 707.7899780273438
+        },
+        {
+          "time": "2026-07-02T18:00:00.000Z",
+          "value": 711.4299926757812
+        },
+        {
+          "time": "2026-07-02T18:30:00.000Z",
+          "value": 711.5
+        },
+        {
+          "time": "2026-07-02T19:00:00.000Z",
+          "value": 709.8499755859375
+        },
+        {
+          "time": "2026-07-02T19:30:00.000Z",
+          "value": 712.739990234375
+        },
+        {
+          "time": "2026-07-02T20:00:00.000Z",
+          "value": 712.5999755859375
+        }
+      ],
+      "sourceUrl": "https://finance.yahoo.com/quote/QQQ"
+    },
+    {
+      "symbol": "BTC-USD",
+      "name": "Bitcoin",
+      "assetType": "crypto",
+      "currency": "USD",
+      "price": 61997.32,
+      "previousClose": 61492.99,
+      "change": 504.33000000000175,
+      "changePercent": 0.8201422633701853,
+      "high": 62077.58,
+      "low": 61192.215,
+      "volume": 27637391360,
+      "trend": "up",
+      "points": [
+        {
+          "time": "2026-07-03T07:30:00.000Z",
+          "value": 61679.98828125
+        },
+        {
+          "time": "2026-07-03T08:00:00.000Z",
+          "value": 61704.78125
+        },
+        {
+          "time": "2026-07-03T08:30:00.000Z",
+          "value": 61507.0390625
+        },
+        {
+          "time": "2026-07-03T09:00:00.000Z",
+          "value": 61614.41015625
+        },
+        {
+          "time": "2026-07-03T09:30:00.000Z",
+          "value": 61640.05078125
+        },
+        {
+          "time": "2026-07-03T10:00:00.000Z",
+          "value": 61680.48828125
+        },
+        {
+          "time": "2026-07-03T10:30:00.000Z",
+          "value": 61844.03125
+        },
+        {
+          "time": "2026-07-03T11:00:00.000Z",
+          "value": 61909.51953125
+        },
+        {
+          "time": "2026-07-03T11:30:00.000Z",
+          "value": 61949.171875
+        },
+        {
+          "time": "2026-07-03T12:00:00.000Z",
+          "value": 61886.328125
+        },
+        {
+          "time": "2026-07-03T12:30:00.000Z",
+          "value": 61904.828125
+        },
+        {
+          "time": "2026-07-03T13:00:00.000Z",
+          "value": 62029.55078125
+        },
+        {
+          "time": "2026-07-03T13:30:00.000Z",
+          "value": 62051.1484375
+        },
+        {
+          "time": "2026-07-03T14:00:00.000Z",
+          "value": 61862.3515625
+        },
+        {
+          "time": "2026-07-03T14:30:00.000Z",
+          "value": 62014.25
+        },
+        {
+          "time": "2026-07-03T14:48:24.000Z",
+          "value": 61997.3203125
+        }
+      ],
+      "sourceUrl": "https://finance.yahoo.com/quote/BTC-USD"
+    }
+  ],
+  "news": [
+    {
+      "id": "1783089300000-0",
+      "title": "He Predicted the Dot-com Bubble Burst. Now He's Saying SpaceX Could be a Fresh Warning Sign.",
+      "url": "https://www.fool.com/investing/2026/07/03/he-predicted-the-dot-com-bubble-burst-now-hes-sayi/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-03T14:35:00.000Z",
+      "summary": "Jeremy Grantham famously called the Dot-com bubble's top, and he's increasingly worried about an AI bubble.",
+      "symbols": [
+        "NVDA",
+        "MSFT",
+        "AAPL"
+      ]
+    },
+    {
+      "id": "1783088728000-1",
+      "title": "Dow Jones Futures Fall Techs Rise After Tesla, Sandisk, AI Stocks Dive; Apple, Robinhood Flash Buy Signals",
+      "url": "https://finance.yahoo.com/m/c5c7ee9b-1c12-3518-9e81-d4125388c16f/dow-jones-futures-fall-techs.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-03T14:25:28.000Z",
+      "summary": "The stock market had strong weekly gains, but it didn't feel that way with Sandisk and other AI plays selling off Thursday.",
+      "symbols": [
+        "NVDA",
+        "MSFT",
+        "AAPL"
+      ]
+    },
+    {
+      "id": "1783088400000-2",
+      "title": "How Greg Abel Is Already Reshaping Berkshire Hathaway's Playbook",
+      "url": "https://www.fool.com/investing/2026/07/03/how-greg-abel-reshaping-berkshire-hathaway/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-03T14:20:00.000Z",
+      "summary": "The new portfolio looks similar, but there are important differences.",
+      "symbols": [
+        "NVDA",
+        "MSFT",
+        "AAPL"
+      ]
+    },
+    {
+      "id": "1783088299000-3",
+      "title": "Michael Burry Shorts Micron, Adding to His NVIDIA and Applied Materials Short Bets Against Chip Stocks",
+      "url": "https://247wallst.com/investing/2026/07/03/michael-burry-shorts-micron-adding-to-his-nvidia-and-applied-materials-short-bets-against-chip-stocks/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-03T14:18:19.000Z",
+      "summary": "Michael Burry, the Scion Asset Management founder popularized in The Big Short, disclosed a new short position against Micron Technology (NASDAQ:MU) in a Substack post dated July 2",
+      "symbols": [
+        "NVDA",
+        "MSFT",
+        "AAPL"
+      ]
+    },
+    {
+      "id": "1783088150000-4",
+      "title": "Prediction: Nike Stock Set for 25% Rebound After Brutal Year",
+      "url": "https://247wallst.com/investing/2026/07/03/prediction-nike-stock-set-for-25-rebound-after-brutal-year/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-03T14:15:50.000Z",
+      "summary": "After a punishing year for shareholders, Nike (NYSE:NKE) finally looks interesting again. Shares closed at $41.05 on June 30, 2026, sitting a hair above the 52-week low of $40. Our",
+      "symbols": [
+        "NVDA",
+        "MSFT",
+        "AAPL"
+      ]
+    },
+    {
+      "id": "1783087920000-5",
+      "title": "Bitcoin ETFs Just Had Their Worst Month Ever. Here's Why I'm Not Worried About Bitcoin.",
+      "url": "https://www.fool.com/investing/2026/07/03/bitcoin-etfs-just-had-their-worst-month-ever-heres/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-03T14:12:00.000Z",
+      "summary": "Bitcoin ETF inflows are likely to return as soon as the price of Bitcoin stabilizes.",
+      "symbols": [
+        "BTC-USD"
+      ]
+    },
+    {
+      "id": "1783087510000-6",
+      "title": "Which Stocks Win When Google AI Powers Walmart’s Checkout?",
+      "url": "https://247wallst.com/investing/2026/07/03/which-stocks-win-when-google-ai-powers-walmarts-checkout/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-03T14:05:10.000Z",
+      "summary": "When an AI agent browses, recommends, and buys on a shopper's behalf, the retailer is just one piece of a much larger value chain. Five public companies sit at the center of that i",
+      "symbols": [
+        "NVDA",
+        "MSFT",
+        "AAPL"
+      ]
+    },
+    {
+      "id": "1783087500000-7",
+      "title": "Where Will SpaceX Be in 100 Years?",
+      "url": "https://www.fool.com/investing/2026/07/03/where-will-hot-ticker-be-in-100-years/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-03T14:05:00.000Z",
+      "summary": "SpaceX's next century could transform humanity.",
+      "symbols": [
+        "NVDA",
+        "MSFT",
+        "AAPL"
+      ]
+    },
+    {
+      "id": "1783086793000-8",
+      "title": "Microsoft Launches AI Adoption Firm",
+      "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-launches-ai-adoption-firm-135313441.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-03T13:53:13.000Z",
+      "summary": "The new unit will start with $2.5 billion to help companies choose and use AI tools.",
+      "symbols": [
+        "NVDA",
+        "MSFT",
+        "AAPL"
+      ]
+    },
+    {
+      "id": "1783086600000-9",
+      "title": "NuScale Power Stock Is Down 75% in 12 Months. Here's Why.",
+      "url": "https://www.fool.com/investing/2026/07/03/nuclear-power-is-down-75-in-12-months-heres-why/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-03T13:50:00.000Z",
+      "summary": "NuScale Power is falling sharply. Should investors buy the dip?",
+      "symbols": [
+        "NVDA",
+        "MSFT",
+        "AAPL"
+      ]
+    },
+    {
+      "id": "1783086339000-10",
+      "title": "Here's Why Viking Therapeutics Stock Surged Higher in June",
+      "url": "https://www.fool.com/investing/2026/07/03/heres-why-viking-therapeutics-stock-surged-higher/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-03T13:45:39.000Z",
+      "summary": "Investors are growing more optimistic over the company's pipeline and the initiation of a Phase 1 trial with a new drug.",
+      "symbols": [
+        "NVDA",
+        "MSFT",
+        "AAPL"
+      ]
+    },
+    {
+      "id": "1783086327000-11",
+      "title": "This 65-Year Dividend Streak Nearly Broke. Here Is Why It Keeps Rising",
+      "url": "https://247wallst.com/investing/2026/07/03/this-65-year-dividend-streak-nearly-broke-here-is-why-it-keeps-rising/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-03T13:45:27.000Z",
+      "summary": "Cincinnati Financial (NASDAQ:CINF) just sent another quarterly check to shareholders, extending one of the most remarkable streaks in American business. The Ohio-based property and",
+      "symbols": [
+        "NVDA",
+        "MSFT",
+        "AAPL"
+      ]
+    }
+  ]
+}
